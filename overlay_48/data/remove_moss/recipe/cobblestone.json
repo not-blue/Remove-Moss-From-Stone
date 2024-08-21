@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smelting",
+  "category": "building",
+  "ingredient": {
+    "item": "minecraft:mossy_cobblestone"
+  },
+  "result": {
+    "id": "minecraft:cobblestone"
+  },
+  "experience": 0,
+  "cookingtime": 50
+}

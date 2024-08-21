@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smelting",
+  "category": "building",
+  "ingredient": {
+    "item": "minecraft:mossy_stone_brick_wall"
+  },
+  "result": {
+    "id": "minecraft:stone_brick_wall"
+  },
+  "experience": 0,
+  "cookingtime": 50
+}

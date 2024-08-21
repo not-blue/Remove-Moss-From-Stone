@@ -1,0 +1,56 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_mossy_cobblestone": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:mossy_cobblestone"
+          }
+        ]
+      }
+    },
+    "has_cobble_slab_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "remove_moss:cobblestone_slab"
+      }
+    },
+    "has_cobble_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "remove_moss:cobblestone"
+      }
+    },
+    "has_cobble_stairs_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "remove_moss:cobblestone_stairs"
+      }
+    },
+    "has_cobble_wall_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "remove_moss:cobblestone_wall"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_mossy_cobblestone",
+      "has_cobble_recipe",
+      "has_cobble_slab_recipe",
+      "has_cobble_stairs_recipe",
+      "has_cobble_wall_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "remove_moss:cobblestone_wall",
+      "remove_moss:cobblestone_slab",
+      "remove_moss:cobblestone_stairs",
+      "remove_moss:cobblestone"
+    ]
+  }
+}

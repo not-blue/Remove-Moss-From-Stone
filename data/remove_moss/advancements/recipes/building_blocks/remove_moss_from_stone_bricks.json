@@ -1,0 +1,58 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_stone_bricks": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:mossy_stone_bricks"
+            ]
+          }
+        ]
+      }
+    },
+    "has_stone_brick_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "remove_moss:stone_bricks"
+      }
+    },
+    "has_stone_brick_slab_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "remove_moss:stone_brick_slab"
+      }
+    },
+    "has_stone_brick_stairs_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "remove_moss:stone_brick_stairs"
+      }
+    },
+    "has_stone_brick_wall_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "remove_moss:stone_brick_wall"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_stone_bricks",
+      "has_stone_brick_recipe",
+      "has_stone_brick_slab_recipe",
+      "has_stone_brick_stairs_recipe",
+      "has_stone_brick_wall_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "remove_moss:stone_bricks",
+      "remove_moss:stone_brick_slab",
+      "remove_moss:stone_brick_stairs",
+      "remove_moss:stone_brick_wall"
+    ]
+  }
+}
