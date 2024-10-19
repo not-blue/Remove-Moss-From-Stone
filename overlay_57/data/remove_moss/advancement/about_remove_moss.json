@@ -1,0 +1,17 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:mossy_cobblestone"
+    },
+    "title": "Remove Moss",
+    "description": "Remove moss from stone bricks and cobblestone blocks, walls, slabs and stairs by sticking them in a furnace for a bit.",
+    "show_toast": false,
+    "announce_to_chat": false
+  },
+  "parent": "global:notblue",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:tick"
+    }
+  }
+}
