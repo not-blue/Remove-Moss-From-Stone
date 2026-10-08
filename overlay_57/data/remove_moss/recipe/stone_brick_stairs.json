@@ -1,6 +1,6 @@
 {
   "type": "minecraft:smelting",
-  "category": "building",
+  "category": "blocks",
   "ingredient": "minecraft:mossy_stone_brick_stairs",
   "result": {
     "id": "minecraft:stone_brick_stairs"

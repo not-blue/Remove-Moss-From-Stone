@@ -1,6 +1,6 @@
 {
   "type": "minecraft:smelting",
-  "category": "building",
+  "category": "blocks",
   "ingredient": "minecraft:mossy_cobblestone",
   "result": {
     "id": "minecraft:cobblestone"
